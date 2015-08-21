@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["HIDEKUNI Kajita"]
   spec.email         = ["hide.nba@gmail.com"]
 
-  spec.summary       = %q{Control two servo motors}
-  spec.homepage      = ""
+  spec.summary       = %q{Use the dino to control two servo motors.}
+  spec.homepage      = "https://github.com/hidenba/swing-servo"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
