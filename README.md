@@ -23,6 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+#The GPIO pin number of Arduino I specified in the yaw pitch
 controller = SwingServo::Controller.new(9, 10)
 
 controller.yawing(120)
