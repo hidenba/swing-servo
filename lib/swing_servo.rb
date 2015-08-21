@@ -15,7 +15,8 @@ module SwingServo
     end
 
     def yawing(position)
-      swing(yaw, position)
+      pos = position < 10 ? 10 : position
+      swing(yaw, pos)
     end
 
     def pitching(position)
